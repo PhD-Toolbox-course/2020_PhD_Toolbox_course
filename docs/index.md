@@ -18,6 +18,8 @@
 
 **PhD toolbox workshop** is for any phD student who has data they want to analyze, no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
 
+**Docker images**: [dockerhub](https://hub.docker.com/repository/docker/phdtoolboxcourse/2020_course)
+
 We will cover  the follow topics:
 
 - Day1
