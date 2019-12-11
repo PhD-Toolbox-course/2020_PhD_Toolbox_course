@@ -1,12 +1,12 @@
 <center><h1>Università degli Studi di Torino</h1>
-<p>January 29-31, 2018</p>
+<p>January ???, 2020</p>
 </center>
 
 ---
 
 <center>
 <h2><p>BASIC MODULE</p>
-<p>Unix, R and reproducible research</p></h2>
+<p>Reproducible Research</p></h2>
 <h3>Instructors</h3>
 <p>Stefano Ghignone - Marco Chiapello</p>
 </center>
@@ -16,7 +16,7 @@
 <center><h2><p>General Information</p></h2></center>
 
 
-**PhD toolbox workshop** is for any phD student who has data they want to analyze, and no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
+**PhD toolbox workshop** is for any phD student who has data they want to analyze, no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
 
 We will cover  the follow topics:
 
@@ -48,7 +48,7 @@ We will only use open-source software and all the course's slides and materials 
 
 ### Wiki page
 
-On GitHub there is a [WIKI page](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/wiki) with specific information for each day.
+On GitHub there is a [WIKI page](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course-/wiki) with specific information for each day.
 
 On the WIKI page you can also find useful links and extra contents.
 
@@ -56,17 +56,17 @@ On the WIKI page you can also find useful links and extra contents.
 
 <center><h2><p>Computer equipment</p></h2></center>
 
-All of the software required for this Data Carpentry workshop will be installed on the computers at our training venue.
+All of the software required for this workshop will be installed on the computers at our training venue.
 
 Participants could bring their laptops. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
 
-However, if you want to use your own laptop, you will need working copies of the described software (R, RStudio, Git). Please make sure to install everything (or at least to download the installers) before the start of your workshop. We encourage participants to bring their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.
+However, if you want to use your own laptop, you will need to install [docker](https://docs.docker.com/). Please make sure to install it before the start of your workshop. We encourage participants to bring their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.
 
 ---
 
 <center><h2><p>Questions and interaction</p></h2></center>
 
-- We will use [Etherpad](https://public.etherpad-mozilla.org/p/PhD_Toolbox_2018) for chatting, taking notes, and sharing URLs and bits of code.
+- We will use [Etherpad]() for chatting, taking notes, and sharing URLs and bits of code.
 
 - You have to create an account on GitHub:
   1. Go [here](https://github.com)
