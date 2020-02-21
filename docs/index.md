@@ -1,5 +1,5 @@
 <center><h1>Università degli Studi di Torino</h1>
-<p>January ???, 2020</p>
+<p>March 5 and March 10-11, 2020</p>
 </center>
 
 ---
@@ -24,21 +24,21 @@ We will cover  the follow topics:
 
 - Day1
 
-	-  [Reproducible research](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day1/RR_theory.pdf)
+	-  [Reproducible research]()
 
-	-  [UNIX](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day1/1.Ghignone.Unito.2017-unix.pdf)
+	-  [UNIX]()
 
 - Day2
 
-	-  [Introduction to R and R data.frames](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
+	-  [Introduction to R and R data.frames]()
 
-	-  [Aggregating and analyzing data with dplyr](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day3/R_dplyr.pdf)
+	-  [Aggregating and analyzing data with dplyr]()
 
 - Day3
 
-	-  [Data visualization with ggplot2](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day3/R_ggplot2.pdf)
+	-  [Data visualization with ggplot2]()
 
-	-  [Reproducible research with R](https://github.com/PhD-Toolbox-course/2017_PhD_Toolbox_course/raw/master/Presentations/Day4/reproducibleResearch/RR_practical.pdf)
+	-  [Reproducible research with R]()
 
 - Optional
 	-  [Version control](https://gitpitch.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
