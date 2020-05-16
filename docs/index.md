@@ -57,7 +57,7 @@ We will only use open-source software and all the course's slides and materials 
 
 ### Wiki page
 
-On the [WIKI page](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course-/wiki) you can find useful links and extra contents.
+On the [WIKI page](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course-/wiki/Extra-contents) you can find useful links and extra contents.
 
 ---
 
