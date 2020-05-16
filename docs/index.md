@@ -17,11 +17,11 @@
 <center><h2><p>General Information</p></h2></center>
 
 
-**PhD toolbox workshop** is for any phD student who has data they want to analyze, no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
-
-**Docker images**: [dockerhub](https://hub.docker.com/repository/docker/phdtoolboxcourse/2020_course)
+**PhD toolbox workshop** is for any phD student who has data to analyze, no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
 
 **Slack**: [Slack](https://phdtoolbox2020.slack.com/)
+
+**Docker images**: [dockerhub](https://hub.docker.com/repository/docker/phdtoolboxcourse/2020_course)
 
 <center><h2><p>Schedule</p></h2></center>
 
@@ -44,11 +44,11 @@
 
 	-  [Aggregating and analyzing data with dplyr]()
 
--Day 4
+- Day4
 
 	-  [Aggregating and analyzing data with dplyr]()
 
-	-  [Data visualization with ggplot2]()
+    -  [Data visualisation]()
 
 
 ### Open-source
@@ -63,7 +63,7 @@ On the [WIKI page](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course
 
 <center><h2><p>Computer equipment</p></h2></center>
 
-Since the course is online, you need to use your own laptop. You have to install [docker](https://docs.docker.com/). Please make sure to install it before the start of your workshop. If you have any problem please, contact the instructors on Slack.
+Since the course is online, you need to use your own laptop. You have to install [docker](https://docs.docker.com/). Detailed information on the software installation are provided on Slack in "#instruction" channel. Please make sure to install it before the start of your workshop. If you have any problem please, contact the instructors on Slack.
 
 ---
 
