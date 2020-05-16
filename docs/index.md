@@ -35,20 +35,20 @@
 
 	-  [UNIX](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/blob/master/lessons/Day1/1.Ghignone.Unito.2017-unix.pdf)
 
-	-  [Introduction to R and R data.frames]()
+	-  [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 
 
 - Day3
 
-	-  [Introduction to R and R data.frames]()
+	-  [Starting with data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
 
-	-  [Aggregating and analyzing data with dplyr]()
+	-  [Manipulating and analyzing data](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
 
 - Day4
 
-	-  [Aggregating and analyzing data with dplyr]()
+	-  [Manipulating and analyzing data](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
 
-    -  [Data visualisation]()
+    -  [Data visualisation](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html)
 
 
 ### Open-source
