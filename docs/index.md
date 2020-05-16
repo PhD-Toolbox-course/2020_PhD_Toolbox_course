@@ -1,13 +1,13 @@
 <center><h1>Universita' degli Studi di Torino</h1>
 <p>Between the 8th and the 11th of June</p>
-<p>From 2pm to 18pm</p>
+<p>From 2pm to 6pm</p>
 <p>Online course</p>
 </center>
 
 ---
 
 <center>
-<h2><p>Data Science with UNIX and R</p>
+<h2><p>Data Science with UNIX and R</p></h2>
 <h3>Instructors</h3>
 <p>Stefano Ghignone - Marco Chiapello</p>
 </center>
