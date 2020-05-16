@@ -1,12 +1,13 @@
-<center><h1>Università degli Studi di Torino</h1>
-<p>March 5 and March 10-11, 2020</p>
+<center><h1>Universita' degli Studi di Torino</h1>
+<p>Between the 8th and the 11th of June</p>
+<p>From 2pm to 18pm<pm>
+<p>Online course<p>
 </center>
 
 ---
 
 <center>
-<h2><p>BASIC MODULE</p>
-<p>Reproducible Research</p></h2>
+<h2><p>Data Science with UNIX and R</p>
 <h3>Instructors</h3>
 <p>Stefano Ghignone - Marco Chiapello</p>
 </center>
@@ -20,9 +21,11 @@
 
 **Docker images**: [dockerhub](https://hub.docker.com/repository/docker/phdtoolboxcourse/2020_course)
 
-We will cover  the follow topics:
+**Slack**: [Slack](https://phdtoolbox2020.slack.com/)
 
-- Day1
+<center><h2><p>Schedule</p></h2></center>
+
+- Day 1
 
 	-  [Reproducible research]()
 
@@ -30,18 +33,22 @@ We will cover  the follow topics:
 
 - Day2
 
+	-  [UNIX]()
+
+	-  [Introduction to R and R data.frames]()
+
+
+- Day3
+
 	-  [Introduction to R and R data.frames]()
 
 	-  [Aggregating and analyzing data with dplyr]()
 
-- Day3
+-Day 4
+
+	-  [Aggregating and analyzing data with dplyr]()
 
 	-  [Data visualization with ggplot2]()
-
-	-  [Reproducible research with R]()
-
-- Optional
-	-  [Version control](https://gitpitch.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
 
 
 ### Open-source
@@ -50,32 +57,18 @@ We will only use open-source software and all the course's slides and materials 
 
 ### Wiki page
 
-On GitHub there is a [WIKI page](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course-/wiki) with specific information for each day.
-
-On the WIKI page you can also find useful links and extra contents.
+On the [WIKI page](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course-/wiki) you can find useful links and extra contents.
 
 ---
 
 <center><h2><p>Computer equipment</p></h2></center>
 
-All of the software required for this workshop will be installed on the computers at our training venue.
-
-Participants could bring their laptops. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
-
-However, if you want to use your own laptop, you will need to install [docker](https://docs.docker.com/). Please make sure to install it before the start of your workshop. We encourage participants to bring their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.
+Since the course is online, you need to use your own laptop. You have to install [docker](https://docs.docker.com/). Please make sure to install it before the start of your workshop. If you have any problem please, contact the instructors on Slack.
 
 ---
 
 <center><h2><p>Questions and interaction</p></h2></center>
 
-- We will use [Etherpad]() for chatting, taking notes, and sharing URLs and bits of code.
-
-- You have to create an account on GitHub:
-  1. Go [here](https://github.com)
-  1. Create a profile
-  1. Write on the etherpad your name and your GitHub username
-  1. The teacher will add you to the Student_2018 team!
-  1. You will receive a confirmation email
-  1. Click on the link in the email to see the conversation
+- We will use [Slack](https://phdtoolbox2020.slack.com/) for chatting, taking notes, and sharing URLs and bits of code.
 
 - We will use **sticky notes** to assess the completion of the exercises or for asking questions. Sticky notes will be also used to evaluate each chunk of the course. This is a good way for the teachers to improve and help the students.
