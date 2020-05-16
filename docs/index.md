@@ -1,7 +1,7 @@
 <center><h1>Universita' degli Studi di Torino</h1>
 <p>Between the 8th and the 11th of June</p>
-<p>From 2pm to 18pm<pm>
-<p>Online course<p>
+<p>From 2pm to 18pm</p>
+<p>Online course</p>
 </center>
 
 ---
