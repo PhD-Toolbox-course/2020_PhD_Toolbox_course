@@ -1,0 +1,68 @@
+---
+title: "Reproducible Research"
+subtitle: "Introduction to Data Science with Unix and R"
+author: "Marco Chiapello"
+date: "2020-06-08"
+output:
+  xaringan::moon_reader:
+    css: ["scrollable.css", "mtheme_max.css", "fonts_mtheme_max.css"]
+    self_contained: false
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    seal: false  
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+# set working directory to docs folder
+setwd(here::here("docs"))
+
+# Set global R options
+options(htmltools.dir.version = FALSE, servr.daemon = TRUE)
+
+# Set global knitr chunk options
+knitr::opts_chunk$set(
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE 
+)
+
+# This is good for getting the ggplot background consistent with
+# the html background color
+library(ggplot2)
+thm <- theme_bw()
+theme_set(thm)
+```
+
+class: title-slide   
+<a href="https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+
+<br><br><br>
+# .font200[Data science in Unix and R]
+## .font180[Reproducible Research]
+
+### Marco Chiapello
+### June 8, 2020
+
+
+---
+
+# PhDToolbox Course
+
+
+.font120[
+In this module we focus on .font150[.red[Reproducible Research]]
+]
+
+
+```{r ds-class-options, echo=FALSE}
+knitr::include_graphics("images/data-science-flow-overall.png")
+```
