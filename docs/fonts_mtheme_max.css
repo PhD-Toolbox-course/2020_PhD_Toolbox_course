@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Roboto', 'Fira Sans','Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+  font-weight:300;
   font-size: 120%;
 }
 
@@ -21,6 +22,11 @@ p {
 ul, ol {
   font-family: 'Roboto', 'Fira Sans','Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
   font-size: 100%;
+}
+
+.marco {
+    text-align:right;
+    font-weight:100;
 }
 
 .remark-code, .remark-inline-code {

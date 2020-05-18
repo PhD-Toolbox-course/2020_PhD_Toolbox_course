@@ -62,7 +62,8 @@ a, a > code {
 .content-box-purple-dark,
 .content-box-red,
 .content-box-red-dark,
-.content-box-yellow {
+.content-box-yellow,
+.content-box-title {
     border-radius: 15px;
     margin: 0 0 25px;
     overflow: hidden;
@@ -121,6 +122,10 @@ a, a > code {
 
 .content-box-yellow {
 	background-color: #fef5c4;
+}
+
+.content-box-title {
+	background-color: #1A292C;
 }
 
 
@@ -358,7 +363,7 @@ a, a > code {
       }
       
       .remark-slide-content > h1 {
-        font-family: 'Fira Sans';
+        font-family: 'Roboto';
         font-weight: normal;
         font-size: 45px;
         margin-top: -95px;

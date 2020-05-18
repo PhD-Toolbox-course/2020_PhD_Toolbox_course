@@ -39,6 +39,15 @@ knitr::opts_chunk$set(
 library(ggplot2)
 thm <- theme_bw()
 theme_set(thm)
+
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+bib <- ReadBib("bib/myBib.bib", check = FALSE)
 ```
 
 class: title-slide   
@@ -49,9 +58,12 @@ class: title-slide
 # .font200[Data science in Unix and R]
 ## .font180[Reproducible Research]
 
-### Marco Chiapello
-### June 8, 2020
-
+<br>
+.marco[
+Marco Chiapello
+<br>
+June 8, 2020
+]
 
 ---
 
@@ -65,4 +77,48 @@ In this module we focus on .font150[.red[Reproducible Research]]
 
 ```{r ds-class-options, echo=FALSE}
 knitr::include_graphics("images/data-science-flow-overall.png")
+```
+
+---
+
+class: inverse
+<br><br>
+.font170[.white[
+**Replication** is the ultimate standard by which scientific claims are judged `r Cite(bib, author = "Peng")`. 
+<br><br>
+The fact that an analysis is reproducible does not guarantee the quality, correctness, or validity of the published results.
+]
+]
+
+
+---
+# What reproducible research is
+
+```{r fulmine, echo=FALSE, out.width = "750px"}
+knitr::include_graphics("images/001.jpg")
+```
+
+---
+# What reproducible research is
+
+```{r miracle, echo=FALSE, out.width = "750px"}
+knitr::include_graphics("images/thenamiracleoccurs.jpg")
+```
+
+This is exactly how it seems when you try to figure out how authors got from a large and complex data set to a dense paper with lots of busy figures.
+Without access to the data and the analysis code, a miracle occurred.
+
+.content-box-title[
+.white[
+.center[
+.font120[There should be no miracles in science `r Cite(bib, author = "Markowetz")`]
+]
+]
+]
+---
+# References
+
+```{r refs, echo=FALSE, results="asis"}
+PrintBibliography(bib)
+
 ```
