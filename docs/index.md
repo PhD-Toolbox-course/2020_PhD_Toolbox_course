@@ -27,7 +27,7 @@
 
 - Day 1
 
-	-  [Reproducible research](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/blob/master/docs/01-RR.html)
+	-  [Reproducible research](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/01-RR.html)
 
 	-  [UNIX](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/blob/master/lessons/Day1/1.Ghignone.Unito.2017-unix.pdf)
 
