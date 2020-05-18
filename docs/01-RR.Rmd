@@ -13,7 +13,7 @@ output:
       ratio: '16:9'
       highlightStyle: github
       highlightLines: true
-      countIncrementalSlides: false
+    countIncrementalSlides: false
     seal: false  
 ---
 
@@ -115,6 +115,7 @@ Without access to the data and the analysis code, a miracle occurred.
 ]
 ]
 ]
+
 ---
 # References
 

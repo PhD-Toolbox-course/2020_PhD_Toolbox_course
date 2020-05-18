@@ -65,10 +65,10 @@ a, a > code {
 .content-box-yellow,
 .content-box-title {
     border-radius: 15px;
-    margin: 0 0 25px;
+    margin: 0 auto;
     overflow: hidden;
     padding: 20px;
-    width: 100%;
+    display: block;
 }
 
 .content-box-blue {
@@ -435,10 +435,11 @@ a, a > code {
       }
       
       .remark-slide-number {
-        font-size: 13pt;
+        /*font-size: 13pt;
         font-family: 'Fira Sans';
         color: #272822;
-          opacity: 1;
+          opacity: 1;*/
+          display: none;
       }
       .inverse .remark-slide-number {
         font-size: 13pt;
