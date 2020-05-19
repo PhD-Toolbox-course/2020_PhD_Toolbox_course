@@ -117,6 +117,55 @@ Without access to the data and the analysis code, a miracle occurred.
 ]
 
 ---
+# What reproducible research is
+.center[
+.font200[DATA + ANALYSIS `r fontawesome::fa("arrow-right", fill = "black")` RESULTS
+]
+]
+
+--
+.center[
+.font200[BUT not like this
+]
+]
+
+---
+
+# What reproducible research is
+
+```{r motivate, echo=FALSE, out.width = "1200px"}
+knitr::include_graphics("images/motivatedReasoning.png")
+```
+
+---
+# What reproducible research is
+.center[
+.font200[DATA + ANALYSIS `r fontawesome::fa("arrow-right", fill = "black")` RESULTS
+]
+]
+
+## Common practice of writing statistical reports:
+.font150[
+- We import a dataset into .red[Excel]
+- Run a procedure to get all results
+- .blue[Copy and paste] selected pieces into a typesetting program (usually .red[Word])
+- Add a few descriptions
+- Finish a report
+]
+
+---
+# What reproducible research is
+
+## There are obvious dangers and disadvantages in this process:
+.font160[
+1. It is .bold[error-prone] due to too much manual work;
+2. It requires lots of human effort to do .bold[tedious jobs];
+3. The workflow is barely recordable, therefore it is .bold[difficult to reproduce];
+4. A .bold[tiny change] of the data source in the future will require the author(s) to go through the same procedure again;
+5. The analysis and writing are separate, so close attention has to be paid to the .bold[synchronization of the two parts].
+]
+
+---
 # References
 
 ```{r refs, echo=FALSE, results="asis"}
