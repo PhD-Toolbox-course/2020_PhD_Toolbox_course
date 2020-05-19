@@ -280,6 +280,17 @@ a, a > code {
     float: right;
     padding-top: 1em;
   }
+  .left-column50 {
+        width: 40%;
+      height: 92%;
+      float: left;
+      padding-right:3em;
+    }
+  .right-column50 {
+    width: 47%;
+    height: 92%;
+    float: left;
+  }
   .pull-left {
     float: left;
     width: 47%;
