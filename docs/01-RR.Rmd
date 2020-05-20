@@ -218,13 +218,21 @@ A study is only replicable if you perform the exact same experiment (at least) t
 Ref: https://github.com/lgatto/TeachingMaterial/tree/master/open-rr-bioinfo-best-practice]
 
 ---
-class: title-slide  
+class: inverse 
 
-# .font180[Reproducible Research Reasons]
-<br><br><br><br><br><br><br><br><br>
+<br><br>
+.center[.font200[.white[
+Reproducible Research Rules
+]]]
+
+----
+
+<br><br><br>
 .marco[
+.white[
 .font130[How does working reproducibly help to achieve more as a scientist]    
 .font100[`r Cite(bib, author = "Markowetz")`]
+]
 ]
 ---
 # Reasons to work reproducibly
@@ -255,9 +263,93 @@ class: title-slide
   - To build a reputation for being an honest and careful researcher
 
 ---
+
+class: inverse
+
+<br><br>
+.center[.font200[.white[
+Reproducible Research Rules
+]]]
+
+----
+
+<br><br><br>
+
+.marco[
+.white[– based on `r Cite(bib, author = "Sandve")`]
+]
+
+---
+class: large
+
+# Rule 1
+
+## For Every Result, Keep Track of How It Was Produced
+
+--
+
+- The **full sequence** of pre- and post-processing steps are often critical in order to reach the achieved result
+
+- **Every detail** that may influence the execution of the step **should be recorded**
+
+- Include the name and **version of the program**, as well as the exact parameters and inputs
+
+.content-box-gray[As a minimum, you should at least **record sufficient details** on **programs, parameters, and manual procedures** to allow yourself, in a year or so,   
+to approximately reproduce the results]
+
+---
+# Rule 2
+
+## Avoid Manual Data Manipulation Steps
+
+--
+
+.font120[
+- .red[Manual procedures are not only **inefficient and error-prone**, they are also **difficult to reproduce**]
+- .red[Manual operations like the use of **copy and paste** between documents **should also be avoided**]
+- Manual modification of files can usually be replaced by the use of standard **UNIX commands** or scripts
+- Manual tweaking of data files to attain format compatibility should be replaced by **format converters** that can be reenacted and **included into executable workflows**
+]
+
+.content-box-gray[If manual operations cannot be avoided, you should as
+a minimum    
+**note down which data files were modified or moved, and for what purpose**]
+
+---
+# Rule 3
+
+## Archive the Exact Versions of All External Programs Used
+
+--
+.font120[
+- In order to exactly reproduce a given result, it may be necessary to use programs in the **exact versions used originally**
+- It is **not always trivial to get hold of a program** in anything but the current version
+]
+<br><br>
+.content-box-gray[As a minimum, you should note
+the **exact names** and **versions** of the main programs you use]
+
+---
+# Rule 4
+
+## Version Control All Custom Scripts
+
+--
+
+.font120[
+- Only that **exact state of the script** may be able to produce that **exact output**, even **given the same input data and parameters**
+- The standard solution to **track evolution of code** is to use a version control system
+  - .font70[A version control system is a **repository of files** with monitored access.]
+  - .font70[**Every change** made to the source **is tracked**, along with who made the change, why they made it]
+]
+
+<br>
+.content-box-gray[As a minimum, you should **archive copies 
+of your scripts** from time to time]
+
+---
 # References
 
 ```{r refs, echo=FALSE, results="asis"}
 PrintBibliography(bib)
-
 ```

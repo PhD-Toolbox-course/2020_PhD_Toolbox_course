@@ -67,8 +67,9 @@ a, a > code {
     border-radius: 15px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 20px;
+    padding: 5px;
     display: block;
+    text-align: center;
 }
 
 .content-box-blue {
@@ -82,6 +83,7 @@ a, a > code {
 
 .content-box-gray {
     background-color: #e2e2e2;
+    padding: 1px;
 }
 
 .content-box-grey {
