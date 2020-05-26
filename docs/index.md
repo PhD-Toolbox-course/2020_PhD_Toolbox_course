@@ -29,11 +29,11 @@
 
 	-  [Reproducible research](https://phd-toolbox-course.github.io/2020_PhD_Toolbox_course/01-RR.html)
 
-	-  [UNIX](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/blob/master/lessons/Day1/1.Ghignone.Unito.2017-unix.pdf)
+	-  [UNIX](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/blob/master/lessons/02.UNIX.pdf)
 
 - Day2
 
-	-  [UNIX](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/blob/master/lessons/Day1/1.Ghignone.Unito.2017-unix.pdf)
+	-  [UNIX](https://github.com/PhD-Toolbox-course/2020_PhD_Toolbox_course/blob/master/lessons/02.UNIX.pdf)
 
 	-  [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 
