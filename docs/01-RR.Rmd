@@ -98,6 +98,8 @@ The fact that an analysis is reproducible does not guarantee the quality, correc
 knitr::include_graphics("images/001.jpg")
 ```
 
+???
+thunderstruck
 ---
 # What reproducible research is
 
@@ -348,8 +350,225 @@ the **exact names** and **versions** of the main programs you use]
 of your scripts** from time to time]
 
 ---
-# References
+# Rule 5
 
+## Record All Intermediate Results, When Possible in Standardized Formats
+
+--
+
+.font120[
+- In principle, as long as the **full process** used to produce a given result **is tracked**, all **intermediate data can also be regenerated**
+- In practice, having easily accessible intermediate results may be of great value (eg, to **spot errors**)
+- When the full process is not readily executable, it allows parts of the process to be rerun
+- **It allows critical examination** of the full process behind a result
+]
+
+<br>
+.content-box-gray[As a minimum, **archive any intermediate result files** that are produced when running an analysis]
+
+---
+# Rule 6
+
+## For Analyses That Include Randomness, Note Underlying Random Seeds
+
+--
+.font120[
+- Many analyses and predictions include some **element of randomness**, meaning the same program will typically give **slightly different results every time it is executed**
+- **Given the same initial seed**, all random numbers used in an analysis will be equal, thus giving identical results every time it is run
+]
+<br>
+
+.content-box-gray[As a minimum, you should **note which analysis steps involve randomness**, so that a certain level of discrepancy can be anticipated when reproducing the results]
+
+---
+# Rule 7
+
+## Always Store Raw Data
+
+--
+<br><br>
+.content-box-gray[
+.font150[
+.f500[
+Always store in a safe place the raw data
+]
+]
+]
+<br>
+.content-box-gray[
+.font150[
+.f500[
+Never touch or mofidy the raw data
+]
+]
+]
+
+---
+# Rule 8
+
+## Generate Hierarchical Analysis Output, Allowing Layers of Increasing Detail to Be Inspected
+
+.font120[
+- The **final results** that make it to an article, be it plots or tables, often represent **highly summarized data**
+- In order to validate and fully understand the main result, it is often useful to **inspect the detailed values** underlying the summaries
+]
+
+<br>
+
+.content-box-gray[
+When working with summarized results, you should as a minimum at least once   
+**generate, inspect, and validate the detailed values** underlying the summaries
+]
+
+---
+# Rule 9
+
+## Connect Textual Statements to Underlying Results
+
+--
+
+.font120[
+- The results of analyses and their corresponding textual interpretations are clearly interconnected but **often lie in different places**
+- Results usually live on a personal computer, while interpretations live in text documents
+- To allow efficient retrieval of details behind textual statements, we suggest that **statements are connected to underlying results already from the time the statements are initially formulated**
+]
+
+.content-box-gray[
+**Integrate reproducible analyses directly into textual documents**    
+.font120[**RMarkdown**]
+]
+
+---
+# Rule 10
+
+## Provide Public Access to Scripts, Runs, and Results
+
+--
+
+.font120[
+- All input data, scripts, versions, parameters, and inter-mediate results should be made **publicly and easily accessible**
+- Making reproducibility of your work by peers a realistic possibility sends a **strong signal of quality, trustworthiness, and transparency**
+]
+
+---
+
+class: inverse
+
+<br><br>
+.center[.font200[.white[
+Reproducible research Tools
+]]]
+
+----
+
+<br>
+.marco[
+.font90[
+.white[
+Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to humans what we want the computer to do.
+]
+]
+]
+.marco[
+.white[– Donald E. Knuth Literate Programming, 1984]
+]
+
+---
+# Tools
+
+<br><br>
+.font120[
+.font160[**Literate programming**] is a methodology that combines a programming language with a documentation language
+
+<br>
+- Write program code
+
+
+- Write narratives to explain what is being done by the program code
+]
+---
+# Tools
+
+## RMarkdown
+
+```{r rmark2, echo=FALSE, out.width = "420px"}
+knitr::include_graphics("images/RMarkdownOutputFormats.png")
+```
+
+.center[Ref: http://rmarkdown.rstudio.com/index.html]
+---
+
+class: title-slide
+<br><br><br><br><br>
+.center[.font200[.f500[DEMO]]]
+
+---
+# Tools
+
+## Project organization 
+
+We strongly advise to split your project in folder and not dumpo everything on the desktop.
+
+1. **README file**: explain the purpose of the project and describe the folder/files in it
+
+1. **RAWDATA folder**: contains the rawdata. We advise to have it with "read only permission"
+
+1. **SCRIPT folder**: contains the script used for your analysis
+
+1. **ANALYSIS folder**: contains the results of your analysis
+
+---
+# Tools
+
+## Version Control
+
+.pull-left[
+```{r git, echo=FALSE, out.width = "350px"}
+knitr::include_graphics("images/versionControl.jpg")
+```
+]
+
+.pull-rigth[
+<br><br>
+.font120[
+**Version control software** keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can **turn back the clock** and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+]
+]
+
+---
+class: inverse
+
+<br><br>
+.center[.font200[.white[
+Conclusion
+]]]
+
+----
+
+---
+# Conclusion
+
+.font120[
+- Learning to use these tools will **require commitment and a massive investment of your time and energy**
+
+- **A priori** it is not clear why the benefits of working reproducibly outweigh its costs.
+
+- Does reproducibility sound like **extra work**?
+
+- It can be, particularly when one is first trying to do it, that is, to **break one’s own previous nonreproducible habits**
+]
+
+---
+# Conclusion
+
+<br><br><br>
+.center[.f500[.font200[My advice is:]]]
+<br>
+.center[.font160[Learn the tools of reproducibility as quickly as possible    
+Use them in every project.]]
+---
+# References
+<br><br><br>
 ```{r refs, echo=FALSE, results="asis"}
 PrintBibliography(bib)
 ```
