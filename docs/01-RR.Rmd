@@ -343,7 +343,7 @@ Never touch or mofidy the raw data
 ---
 # Rule 8
 
-## Generate Hierarchical Analysis Output, Allowing Layers of Increasing Detail to Be Inspected
+## Generate Hierarchical Analysis Output, Allowing Layers of Increasing Detail to Be Inspected (test units)
 
 .font120[
 - The **final results** that make it to an article, be it plots or tables, often represent **highly summarized data**
